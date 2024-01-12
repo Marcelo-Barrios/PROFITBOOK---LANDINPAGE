@@ -428,6 +428,11 @@ a b {
     width: 100%;
 }
 
+.img-descuento:hover {
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
 .text-ventana {
     color: gold;
 }
@@ -441,6 +446,11 @@ a b {
 
 .cerrar img {
     width: 100%;
+}
+
+.cerrar:hover {
+    transform: rotateZ(90deg);
+    transition: 500ms;
 }
 
 /* FIN DE LOS ESTILOS DEL RELOJ */
@@ -1166,11 +1176,3 @@ a b {
         width: 80%;
     }
 }
-
-
-
-
-
-
-
-
